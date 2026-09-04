@@ -6,3 +6,4 @@ Diagrama de contexto C4:
 
 ![Diagrama de contexto](docs/images/context.png)
 
+
