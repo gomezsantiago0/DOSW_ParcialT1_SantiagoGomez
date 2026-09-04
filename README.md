@@ -62,6 +62,22 @@ Tareas:
 
 Enlace Jira: https://nicolasdrodriguez.atlassian.net/jira/software/projects/DPS/boards/35/backlog?atlOrigin=eyJpIjoiMWY2MDdlOTVkNmEzNGRlN2JjNTFjYjgzYjU3YTQxMDgiLCJwIjoiaiJ9
 
+# Punto 4
+
+Patrones de diseño:
+
+- Factory Method
+- Creacional
+- Este patron me permite gestionar la creación de los dos tipos de tutores (profesor o estudiante de posgrado) de forma limpia y centralizada y tambien asi evito el acoplamiento directo entre el código principal y las clases específicas de objetos.
+
+- Strategy
+- Comportamiento
+- Strategy me sirve al momento de el estudiante tener que seleccionar la preferencia fastest_available, expert_first y peer_tutoring ya que en ese caso strategy me permite definir una interfaz para un conjunto de algoritmos y hacerlos intercambiables en tiempo de ejecucion, y asi cada preferencia del estudiante (fastest_available, expert_first, peer_tutoring) va a representar una estrategia diferente para buscar o asignar un tutor.
+
+Diagrama de clases:
+
+![Diagrama de Clases](docs/images/diagramaclases.png)
+
 # Pull Requests
 
 Enlace pull requests: https://github.com/gomezsantiago0/DOSW_ParcialT1_SantiagoGomez/pulls
